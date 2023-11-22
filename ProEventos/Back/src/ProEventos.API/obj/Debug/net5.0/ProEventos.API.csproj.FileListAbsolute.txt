@@ -11,7 +11,6 @@ C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\bin\Debug\net
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csprojAssemblyReference.cache
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.AssemblyInfoInputs.cache
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.AssemblyInfo.cs
@@ -27,3 +26,4 @@ C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.pdb
 C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
+C:\Users\Wonka\Documents\CSharp\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.AssemblyReference.cache
