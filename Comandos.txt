@@ -1,0 +1,16 @@
+ng start : inicia o projeto angular
+ng new "Nome do projeto" : cria um projeto angular
+nvm use 14.15.4 : usar uma versão específica do node
+nvm install v14.15.4 : instala uma versão do node
+nvm list available : lista todas as versões disponíveis do node
+npm install ngx-bootstrap --save : instalar o bootstrap ngx angular
+npm install --save @fortawesome/fontawesome-free : instala o fontawesome
+ng generate component eventos : gera um componente angular
+npm install bootstrap@4 : instalar o bootstrap localmente
+
+dotnet new webapi -n ProEventos.API : cria uma API
+dotnet ef migrations add Initial -o Data/Migrations : cria uma migration
+dotnet ef database update : inicia a migration
+dotnet tool update --global dotnet-ef --version 5.0.2 : atualizar a versão do entity framework
+dotnet dev-certs https --trust : autoriza o certificado digital
+
