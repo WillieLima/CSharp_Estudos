@@ -30,10 +30,10 @@ namespace ProEventos.API
 		{
 
 			services.AddDbContext<DataContext>(context => 
-				{context.UseSqlite(Configuration.GetConnectionString("Default"));	
+				{context.UseSqlite(Configuration.GetConnectionString("Default"));	//adicionando contexto no startup
 			});
 			services.AddControllers();
-			services.AddCors();
+			services.AddCors(); //autorização cors
 			services.AddSwaggerGen(c =>
 			{
 				c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProEventos.API", Version = "v1" });
@@ -56,7 +56,7 @@ namespace ProEventos.API
 
 			app.UseAuthorization();
 			
-			app.UseCors(cors => cors.AllowAnyHeader()
+			app.UseCors(cors => cors.AllowAnyHeader() //autorizações CORS
 									.AllowAnyMethod()
 									.AllowAnyOrigin());
 
