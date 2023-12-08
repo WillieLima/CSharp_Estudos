@@ -19,3 +19,5 @@ dotnet new classlib -n ProEventos.Persistence: Criando uma classlibrary persist�
 				 .Application: Criando uma classlibrary Aplicação
 dotnet sln ProEventosBack.sln add ProEventos.Application: referenciando projeto dentro da solution
 dotnet add ProEventos.API/ProEventos.API.csproj reference ProEventos.Application: referenciando um projeto dentro de outro projeto
+
+dotnet ef migrations add Initial -p ProEventos.Persistence -s ProEventos.API
