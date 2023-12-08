@@ -13,4 +13,9 @@ dotnet ef migrations add Initial -o Data/Migrations : cria uma migration
 dotnet ef database update : inicia a migration
 dotnet tool update --global dotnet-ef --version 5.0.2 : atualizar a versão do entity framework
 dotnet dev-certs https --trust : autoriza o certificado digital
-
+dotnet new sln -n ProEventosBack: criando uma solution com nome
+dotnet new classlib -n ProEventos.Persistence: Criando uma classlibrary persistência
+				 .Domain: Criando uma classlibrary Domínio
+				 .Application: Criando uma classlibrary Aplicação
+dotnet sln ProEventosBack.sln add ProEventos.Application: referenciando projeto dentro da solution
+dotnet add ProEventos.API/ProEventos.API.csproj reference ProEventos.Application: referenciando um projeto dentro de outro projeto
