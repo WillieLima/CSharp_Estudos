@@ -70,7 +70,7 @@ namespace ProjetoMVC.Controllers
 			return View(contato);
 		}
 		
-		public IActionResult Deletar(int id)
+		public IActionResult Excluir(int id)
 		{
 			var contato = _context.Contatos.Find(id);
 			
@@ -81,7 +81,7 @@ namespace ProjetoMVC.Controllers
 			return View(contato);
 		}
 		[HttpPost]
-		public IActionResult Deletar(Contato contato)
+		public IActionResult Excluir(Contato contato)
 		{
 			var contatoBanco = _context.Contatos.Find(contato.Id);
 
