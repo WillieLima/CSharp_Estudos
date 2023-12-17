@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Fq5ftDBLJc294ag8KXWVWvuLW404P3TwVxpuRnTqcKI=",
+  "Source": "AzureAPITables",
+  "BasePath": "_content/AzureAPITables",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

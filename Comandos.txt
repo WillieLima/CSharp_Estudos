@@ -21,3 +21,5 @@ dotnet sln ProEventosBack.sln add ProEventos.Application: referenciando projeto 
 dotnet add ProEventos.API/ProEventos.API.csproj reference ProEventos.Application: referenciando um projeto dentro de outro projeto
 
 dotnet ef migrations add Initial -p ProEventos.Persistence -s ProEventos.API
+dotnet add package Azure.Storage.Blobs: Adicionar pacote de blobs do azure
+dotnet add package Azure.Data.Tables: Adicionar pacote de tabelas storage account do azure
